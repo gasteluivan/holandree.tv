@@ -6723,7 +6723,7 @@ li.fancybox-thumbs-loading {
   min-height: 100%;
   min-width: 100%;
   height: auto;
-  width: auto;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
@@ -7876,7 +7876,7 @@ li.fancybox-thumbs-loading {
 .c-footer__logo-src {
   height: auto;
   width: 100%;
-  max-width: 290px;
+  max-width: 280px;
 }
 
 .c-form__element {
