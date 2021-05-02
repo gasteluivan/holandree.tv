@@ -139,7 +139,7 @@ var NewsletterFormController = function () {
 
     function n(e) {
         t = e;
-        var n = e ? "Cargando..." : "";
+        var n = e ? "Loading projects..." : "";
         r.text(n)
     }
     var t = !1,
