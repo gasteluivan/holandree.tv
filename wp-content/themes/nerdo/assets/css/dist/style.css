@@ -8479,7 +8479,7 @@ li.fancybox-thumbs-loading {
   pointer-events: none;
   overflow: hidden;
 }
-.vimeo-wrapper iframe {
+.vimeo-wrapper video {
   width: 100vw;
   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
   min-height: 100vh;
