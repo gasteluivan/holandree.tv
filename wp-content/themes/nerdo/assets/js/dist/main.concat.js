@@ -139,7 +139,7 @@ var NewsletterFormController = function () {
 
     function n(e) {
         t = e;
-        var n = e ? "Loading projects..." : "";
+        var n = e ? "Loading..." : "";
         r.text(n)
     }
     var t = !1,
@@ -171,7 +171,7 @@ var GridController = function () {
     function e() {
         var t = $(".js-grid-load-more", i);
         t.length > 0 && (void 0 === o && ($(document).off("click", ".js-grid-load-more"), $(document).on("click", ".js-grid-load-more", function (t) {
-            t.preventDefault(), $(this).text("Cargando..."),
+            t.preventDefault(), $(this).text("Loading..."),
                 function (t) {
                     if (void 0 !== t && t.length > 0) {
                         var r = (new BasicService).get({

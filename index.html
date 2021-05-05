@@ -140,7 +140,7 @@
                 <!-- <section class="hero-section justify-content-start align-items-end text-left"> -->
                     <div class="vimeo-wrapper" style="background-image: url(own/vegetable.jpg); background-size: cover;">
                         <!-- <iframe src="https://player.vimeo.com/video/544280797?Controles=0&background=1&autoplay=1&loop=1&byline=0&title=0" -->
-                            <video autoplay loop muted>
+                            <video class="videoHome" autoplay loop muted>
                                 <source src="./video/2581050355.mp4" type="video/mp4" />
                               </video>
                         <!-- frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
@@ -707,6 +707,16 @@
     </script> -->
     <script type='text/javascript' src='wp-content/themes/nerdo/assets/js/dist/main.concat.js'></script>
     <!-- <script type='text/javascript' src='wp-includes/js/wp-embed.minf56c.js?ver=6ab1a72e39fef6cf7f86d7fea977660b'> -->
+    <script>
+        function isMobile(){     
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                $('.videoHome').hide();
+           }
+           else{
+                $('.videoHome').show();
+           }
+        } 
+        isMobile();
     </script>
 </body>
 
