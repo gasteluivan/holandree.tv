@@ -7712,7 +7712,7 @@ li.fancybox-thumbs-loading {
   display: block;
   width: 100vw;
   height: 100vh;
-  margin: 0;
+  margin: -15px 0px;
   padding: 0 45px;
   padding-top: 0px;
   padding-top: 25vh;
